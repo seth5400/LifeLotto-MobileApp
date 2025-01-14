@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="0dp">
+
+
+
+            <ImageButton
+                android:id="@+id/contact_back_setting"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="345dp"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icon_back_white" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/eazy_chat"
+                android:paddingTop="20dp"
+                android:text="@string/contact_title"
+                android:textColor="#ffffff"
+                android:textSize="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText,SpUsage" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="370dp"
+        android:layout_height="575dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/reg_bg_float"
+        android:elevation="20dp"
+        android:foregroundGravity="fill_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView17d"
+            android:layout_width="198dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="60dp"
+            android:fontFamily="@font/eazy_chat"
+            android:text="080-285-2628"
+            android:textColor="#0CBFDE"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="38dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_tel" />
+
+        <TextView
+            android:id="@+id/textView1a7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/eazy_chat"
+            android:text="Jonathan.d@kkumail.com"
+            android:textColor="#0CBFDE"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViews9s"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="124dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_mail" />
+
+        <ImageView
+            android:id="@+id/imageViewsaa9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="208dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_location" />
+
+
+        <TextView
+            android:id="@+id/textViews7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="56dp"
+            android:fontFamily="@font/eazy_chat"
+            android:text="@string/contact_add"
+            android:textColor="#0CBFDE"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="#0CBFDE"
+            android:ems="10"
+            android:fontFamily="@font/eazy_chat"
+            android:hint="@string/contact_email"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#0CBFDE"
+            android:textColorHint="#0CBFDE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="348dp"
+            android:backgroundTint="#0CBFDE"
+            android:ems="10"
+            android:fontFamily="@font/eazy_chat"
+            android:hint="@string/contact_name"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#0CBFDE"
+            android:textColorHint="#0CBFDE"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="424dp"
+            android:layout_marginEnd="34dp"
+            android:backgroundTint="#0CBFDE"
+            android:ems="10"
+            android:fontFamily="@font/eazy_chat"
+            android:hint="@string/contact_message"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#0CBFDE"
+            android:textColorHint="#0CBFDE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_message"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="34dp"
+            android:background="@drawable/btn_clothes"
+            android:fontFamily="@font/eazy_chat"
+            android:letterSpacing="0.02"
+            android:paddingTop="5dp"
+            android:text="@string/contact_btn"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textColorHint="#0CBFDE"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_message"
+            tools:ignore="MissingConstraints">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

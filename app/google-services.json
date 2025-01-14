@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495094500475",
+    "project_id": "project-lifelotto",
+    "storage_bucket": "project-lifelotto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495094500475:android:1e7037f4ef4cca102466de",
+        "android_client_info": {
+          "package_name": "com.example.testp1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkd5dWoxoTc4FeVYz2aqlwtkwb-FA0gqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

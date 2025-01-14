@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_app3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestP1"
+        tools:targetApi="31">
+        <activity
+            android:name=".menu_edit"
+            android:exported="false" />
+        <activity
+            android:name=".stt_sound"
+            android:exported="false" />
+        <activity
+            android:name=".generate_activit_selfdevelopment"
+            android:exported="false" />
+        <activity
+            android:name=".generate_activit_physical"
+            android:exported="false" />
+        <activity
+            android:name=".generate_food_snack"
+            android:exported="false" />
+        <activity
+            android:name=".generate_food_dinner"
+            android:exported="false" />
+        <activity
+            android:name=".generate_food_lunch"
+            android:exported="false" />
+        <activity
+            android:name=".generate_food_breakfast"
+            android:exported="false" />
+        <activity
+            android:name=".generate_movie_action"
+            android:exported="false" />
+        <activity
+            android:name=".generate_movie_horror"
+            android:exported="false" />
+        <activity
+            android:name=".generate_movie_romantic"
+            android:exported="false" />
+        <activity
+            android:name=".menu_movie"
+            android:exported="false" />
+        <activity
+            android:name=".fav"
+            android:exported="false" />
+        <activity
+            android:name=".dice"
+            android:exported="false" />
+        <activity
+            android:name=".contact_us"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".privacy_policy"
+            android:exported="false" />
+        <activity
+            android:name=".faq"
+            android:exported="false" />
+        <activity
+            android:name=".question_reg5"
+            android:exported="false" />
+        <activity
+            android:name=".question_reg4"
+            android:exported="false" />
+        <activity
+            android:name=".question_reg3"
+            android:exported="false" />
+        <activity
+            android:name=".language"
+            android:exported="false" />
+        <activity
+            android:name=".login1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".generate_clothes_formal" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Register" />
+        <activity android:name=".menu_activity" />
+        <activity android:name=".menu_music" />
+        <activity android:name=".menu_food" />
+        <activity android:name=".menu_clothes" />
+        <activity android:name=".menu_music_nation" />
+        <activity android:name=".menu_music_thai" />
+        <activity android:name=".generate_actvty" />
+        <activity android:name=".generate_music" />
+        <activity android:name=".generate_music_nation" />
+    </application>
+
+</manifest>

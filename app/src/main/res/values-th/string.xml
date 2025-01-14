@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">สวัสดีนี้ไทยนะ</string>
+
+
+
+    <!-- login layout-->
+    <string name="log_email">อีเมล</string>
+    <string name="log_pass">รหัสผ่าน</string>
+    <string name="log_login">เข้าสู่ระบบ</string>
+    <string name="log_acc">ยังไม่มีบัญชี?</string>
+    <string name="log_signip">สมัคร</string>
+
+    <!-- register layout-->
+    <string name="reg_register">ลงทะเบียน</string>
+    <string name="reg_username">ชื่อผู้ใช้งาน</string>
+    <string name="reg_email">อีเมล</string>
+    <string name="reg_pass">รหัสผ่าน</string>
+    <string name="reg_conpass">ยืนยันรหัสผ่าน</string>
+    <string name="reg_accept">ฉันยอมรับข้อกำหนดและเงื่อนไขต่างๆ</string>
+    <string name="reg_signup">สมัคร</string>
+    <string name="reg_ready">ฉันมีบัญชีแล้ว</string>
+    <string name="reg_signin">เข้าสู่ระบบ</string>
+
+    <!-- home layout-->
+    <string name="hm_pop">ที่นิยม</string>
+    <string name="hm_fav">สิ่งที่ชอบ</string>
+    <string name="hm_FAQ">FAQ</string>
+    <string name="hm_Settings">การตั้งค่า</string>
+
+
+    <!-- menu layout-->
+    <string name="mn_types">ประเภท</string>
+    <string name="mn_Clothes">เสื้อผ้า</string>
+    <string name="mn_Food">อาหาร</string>
+    <string name="mn_Music">เพลง</string>
+    <string name="mn_Activity">กิจกรรม</string>
+
+    <!-- profile layout-->
+    <string name="pf_username">ชื่อผู้ใช้งาน</string>
+    <string name="pf_pass">รหัสผ่าน</string>
+    <string name="pf_email">อีเมล</string>
+    <string name="pf_add">ที่อยู่</string>
+    <string name="pf_change">เปลี่ยน</string>
+    <string name="pf_edit_pf">แก้ไขโปรไฟล์</string>
+    <string name="pf_logout">ออกจากระบบ</string>
+
+    <!-- setting layout-->
+    <string name="stt_settings">การตั้งค่า</string>
+    <string name="stt_language">ภาษา</string>
+    <string name="stt_rate_this_app">ให้คะแนนแอปนี้</string>
+    <string name="stt_guide_book">คู่มือ</string>
+    <string name="stt_faq">คำถามที่พบบ่อย</string>
+    <string name="stt_deactivate">ปิดการใช้งาน</string>
+
+    <!-- activity generate layout-->
+    <string name="act_act_gv">สร้างค่า</string>
+    <string name="act_act_btng">สร้าง</string>
+
+    <!-- activity menu layout-->
+    <string name="act_menu_title">กิจกรรม</string>
+    <string name="act_menu_phy">กายภาพ</string>
+    <string name="act_menu_dev">การพัฒนาตนเอง</string>
+
+    <!-- clothes menu layout-->
+    <string name="clo_menu_title">เสื้อผ้า</string>
+    <string name="clo_menu_formal">ทางการ</string>
+    <string name="clo_menu_casual">ไม่ทางการ</string>
+    <string name="clo_menu_casualchic">ลำลองชิค</string>
+
+    <!-- food menu layout-->
+    <string name="food_menu_title">อาหาร</string>
+    <string name="food_menu_breakfast">อาหารเช้า</string>
+    <string name="food_menu_lunch">อาหารกลางวัน</string>
+    <string name="food_menu_dinner">อาหารเย็น</string>
+    <string name="food_menu_snack">ขนม</string>
+
+    <!-- music menu layout-->
+    <string name="music_menu_title">เพลง</string>
+    <string name="music_menu_thai">ไทย</string>
+    <string name="music_menu_inter">ต่างประเทศ</string>
+
+    <!-- music inter menu layout-->
+    <string name="inter_menu_title">เพลง : </string>
+    <string name="inter_menu_inter">ต่างประเทศ</string>
+    <string name="inter_menu_pop">ป๊อป</string>
+    <string name="inter_menu_rap">แร็พ</string>
+    <string name="inter_menu_rock">ร็อค</string>
+    <string name="inter_menu_jazz">แจ๊ส</string>
+
+    <!-- music thai menu layout-->
+    <string name="thai_menu_title">เพลง : ไทย</string>
+    <string name="thai_menu_pop">ป๊อป</string>
+    <string name="thai_menu_rap">แร็พ</string>
+    <string name="thai_menu_rock">ร็อค</string>
+    <string name="thai_menu_jazz">แจ๊ส</string>
+
+    <!-- contact layout -->
+    <string name="contact_title">ติดต่อเรา</string>
+    <string name="contact_add">123 หมู่ 16 ถนนมิตรภาพ อำเภอเมือง จังหวัดขอนแก่น 40002</string>
+    <string name="contact_name">ชื่อ</string>
+    <string name="contact_email">อีเมล</string>
+    <string name="contact_message">ข้อความ</string>
+    <string name="contact_btn">ส่งข้อความ</string>
+
+    <!-- Dice layout -->
+    <string name="Dice_title">ทอยลูกเต๋า</string>
+
+    <!-- faq layout -->
+    <string name="faq_title">คำถามที่พบบ่อย</string>
+
+    <!-- fav layout -->
+    <string name="fav_title">รายการโปรด</string>
+
+    <!-- privacy layout -->
+    <string name="pp_title">ความเป็นส่วนตัว</string>
+    <string name="pp_text1">สร้างแอป LIFELOTTO เป็นแอปฟรี บริการนี้ให้บริการโดยไม่มีค่าใช้จ่ายและมีวัตถุประสงค์เพื่อใช้ตามที่เป็นอยู่</string>
+    <string name="pp_text2">หน้านี้ใช้เพื่อแจ้งให้ผู้เยี่ยมชมทราบเกี่ยวกับนโยบายของฉันเกี่ยวกับการรวบรวม การใช้ และการเปิดเผยข้อมูลส่วนบุคคล หากใครก็ตามตัดสินใจใช้บริการของฉัน
+
+หากคุณเลือกที่จะใช้บริการของฉัน แสดงว่าคุณยอมรับการรวบรวมและการใช้ข้อมูลที่เกี่ยวข้องกับนโยบายนี้ ข้อมูลส่วนบุคคลที่ฉันรวบรวมจะถูกนำมาใช้เพื่อการให้บริการและปรับปรุงบริการ ฉันจะไม่ใช้หรือแบ่งปันข้อมูลของคุณกับใครก็ตาม ยกเว้นตามที่อธิบายไว้ในนโยบายความเป็นส่วนตัวนี้</string>
+
+    <!-- ques1_reg -->
+    <string name="ques1_title">คุณทำอาชีพอะไร?</string>
+    <string name="ques1_text1">นักเรียน/นักศึกษา</string>
+    <string name="ques1_text2">พนักงาน</string>
+    <string name="ques1_text3">เจ้าของธุรกิจ</string>
+    <string name="ques1_text4">ไม่ขอระบุ</string>
+    <string name="ques1_btn">ดำเนินการต่อ</string>
+
+
+    <!-- ques2_reg -->
+    <string name="ques2_title">เลือกเพศของคุณ</string>
+    <string name="ques2_text1">ผู้ชาย</string>
+    <string name="ques2_text2">ผู้หญิง</string>
+    <string name="ques2_text3">LGBT</string>
+    <string name="ques2_text4">ไม่ขอระบุ</string>
+    <string name="ques2_btn">ดำเนินการต่อ</string>
+
+    <!-- ques3_reg -->
+    <string name="ques3_title">ช่วงอายุของคุณคือช่วงไหน?</string>
+    <string name="ques3_text1">1-17 ปี</string>
+    <string name="ques3_text2">18-34 ปี</string>
+    <string name="ques3_text3">35-54 ปี</string>
+    <string name="ques3_text4">55 ปีหรือสูงกว่า</string>
+    <string name="ques3_btn">ดำเนินการต่อ</string>
+
+    <!-- ques4_reg -->
+    <string name="ques4_title">คุณเป็นมังสวิรัติหรือกินแต่เนื้อสัตว์เท่านั้น?</string>
+    <string name="ques4_text1">เนื้อสัตว์</string>
+    <string name="ques4_text2">มังสวิรัติ</string>
+    <string name="ques4_text3">ทั้งสอง</string>
+    <string name="ques4_text4">ไม่ทั้งสอง</string>
+    <string name="ques4_btn">ดำเนินการต่อ</string>
+
+    <!-- change pass-->
+    <string name="ch_pass1">รหัสผ่านปัจจุบัน</string>
+    <string name="ch_pass2">รหัสผ่านใหม่</string>
+    <string name="ch_pass3">ยืนยันรหัสผ่านใหม่</string>
+
+    !-- change username-->
+    <string name="ch_name">กรอกชื่อผู้ใช้</string>
+
+    <!-- rate app-->
+    <string name="rate_app">ความคิดเห็น</string>
+
+    <!-- language-->
+    <string name="lang_title">ภาษา</string>
+</resources>
