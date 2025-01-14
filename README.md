@@ -22,12 +22,16 @@ This project was collaboratively developed by me and my teammates as part of the
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/LifeLotto-MobileApp.git
+   
 2. Navigate to the project directory:
    ```bash
    cd LifeLotto-MobileApp
+   
 3. Open the project in Android Studio.
-4. Sync Gradle and ensure all dependencies are installed.
-5. Build and run the application on an emulator or a physical Android device.
+   
+5. Sync Gradle and ensure all dependencies are installed.
+   
+7. Build and run the application on an emulator or a physical Android device.
 
 ## Folder Structure
 - **/app**: Contains the source code for the application, including activities and fragments.  
@@ -38,4 +42,4 @@ This project was collaboratively developed by me and my teammates as part of the
 ## Future Improvements
 - **Enhanced Data Synchronization**: Optimize performance for accessing favorites and popular topics.  
 - **Expanded Randomization Options**: Add more categories and features for customization.  
-- **Social Media Integration**: Enable users to share their random results directly on social platforms.  
+- **Social Media Integration**: Enable users to share their random results directly on social platforms.
